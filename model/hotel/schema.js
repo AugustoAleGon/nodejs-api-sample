@@ -4,9 +4,9 @@ const Schema = mongoose.Schema
 const hotelSchema = new Schema({
   id: { type: String, required: true },
   name: { type: String },
-  starts: { type: Integer },
+  stars: { type: Integer },
   price: { type: Integer },
-  images: { type: String },
+  image: { type: String },
   amenities: { type: Array}
 })
 
